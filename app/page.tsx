@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Counter } from "./components/counter/Counter";
+import { Calendar } from "./components/Calendar";
 
 export default function IndexPage() {
-  return <Counter />;
+  console.log('HERE')
+  return <Calendar />;
 }
 
 export const metadata: Metadata = {
-  title: "Redux Toolkit",
+  title: "Wasmer Single Day Calendar",
 };
