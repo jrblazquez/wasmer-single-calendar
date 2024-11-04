@@ -10,6 +10,7 @@ export type RootState = ReturnType<typeof rootReducer>;
 export const makeStore = () => {
   const sagaMiddleware = createSagaMiddleware();
 
+  console.info("make store");
   const store = configureStore({
     reducer: rootReducer,
     middleware: (getDefaultMiddleware) =>

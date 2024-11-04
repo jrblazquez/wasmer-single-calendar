@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Calendar } from "./components/Calendar";
 
 export default function IndexPage() {
-  console.log('HERE')
+  console.info("Here");
   return <Calendar />;
 }
 
