@@ -1,5 +1,4 @@
 name: wasmer-single-day-calendar
 app_id: da_K0DIkt5UOW8K
-owner: jrblazquez
 package: .
 kind: wasmer.io/App.v0
